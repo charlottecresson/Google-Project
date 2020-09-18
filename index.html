@@ -18,11 +18,14 @@
     </div>
     <div id="main">
         <a href="#" id="logo"><img src="logo.png"></a>
-        <input type="text" id="search">
         <div id="flexbox">
-            <button id="google-search-btn">Google Search</button><button id="random-search-btn">I'm Feeling Lucky</button>
+            <form action="https://google.com/search" method="GET">
+                <input type="text" id="search" name="q" placeholder="Search">
+                    <input id="google-search-btn" type="submit" value="Google Search">
+                    <button id="random-search-btn">I'm Feeling Lucky</button>
+                <p id="google-text">Google offered in: <a href="#" id="deutsch">Deutsch</a></p>
+            </form>
         </div>
-        <p id="google-text">Google offered in: <a href="#" id="deutsch">Deutsch</a></p>
     </div>
     <div id="footer">
         <a href="#" id="advertising">Advertising</a>

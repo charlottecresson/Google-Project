@@ -66,6 +66,7 @@ a:hover {
 
 /*Main Section*/
 #main {
+    text-align: center;
     min-height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -76,7 +77,6 @@ a:hover {
     ". flexbox ."
     ". google-text .";
 }
-
 #logo {
     grid-area: logo;
     justify-self: center;
